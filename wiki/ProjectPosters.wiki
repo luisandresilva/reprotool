@@ -1,0 +1,4 @@
+#summary List of posters created for the SW project.
+
+= Old poster for the SW project =
+http://svn.codespot.com/a/eclipselabs.org/reprotool/wiki/img/swproj-poster-v1.png
