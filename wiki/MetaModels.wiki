@@ -1,0 +1,23 @@
+#summary Discussion about meta-models
+#labels Discussion
+
+= Introduction =
+
+Here is the ongoing discussion about the meta-models that we are going to use in our project.
+
+= Parts of the Meta-Model =
+
+The whole ReProTool meta-model consists of several smaller meta-models divided into separate packages. Each package should encapsulate a certain aspect of the intended application.
+
+== The Core ==
+
+== Files and Documents ==
+
+== Structural Artefacts ==
+=== Generic Document Structure ===
+=== Abstract Syntax of Source Code ===
+
+== Software Engineering Artefacts ==
+=== Requirements ===
+=== Use-cases ===
+=== Behaviour ===
