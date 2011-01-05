@@ -1,11 +1,7 @@
-#summary Developement environment
-
-= Introduction =
-
-This page is intended for reprotool developers as a guide to set their environment.
+#summary This page is intended for reprotool developers as a guide to set their environment.
 
 = Project setup =
-WikiCheckout project.
+Checkout project.
 
 = Eclipse =
 
