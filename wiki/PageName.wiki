@@ -5,7 +5,7 @@
 This page is intended for reprotool developers as a guide to set their environment.
 
 = Project setup =
-Checkout project as mentioned on WikiSource.
+WikiCheckout project.
 
 = Eclipse =
 
@@ -22,5 +22,3 @@ Install the plugin from update site (Help -> Install new software), enter locati
 == Packages ==
 
 Install packages "Eclipse Plug-in Development Environment" and "Eclipse RCP Plug-in Developer Resources" as described at http://www.vogella.de/articles/EclipseRCP/article.html#eclipseinstallation_download in chapter 2.2
-
-
