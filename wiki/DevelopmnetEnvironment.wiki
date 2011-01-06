@@ -22,4 +22,4 @@ Checkout project sources as described on
 
 Import project in eclipse (File -> Import -> Existing projects into workspace -> select directory with project, leave "Copy projects into workspace" unchecked).
 
-Try to launch the plugin: Double click on `plugin.xml` and push play button in upper right corner.
+Try launching of the plugin: Double click on `plugin.xml` and push play button in upper right corner. New instance of eclipse should start, inside this started IDE select Window -> Open perspective -> Other -> reprotool.
