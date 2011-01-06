@@ -7,21 +7,24 @@ _Eclipse Modeling Tools (includes Incubating components)_.
 
 Note:These steps were tested on _Ubuntu 10.04 LTS - the Lucid Lynx_.
 
-=== Subclipse ===
-Install Subclipse plugin from Eclipse marketplace (Help -> Eclipse Marketplace).
+=== Subclipse SVN plugin ===
+This step is optional, you could easily work with command-line-based SVN client.
+To install Subclipse go to `Help -> Eclipse Marketplace` and search for "Subclipse".
+
 
 === Window Builder Pro (optional) ===
 Window Builder Pro is used for visual development of GUI parts (dialogs, perspectives,...). 
-Install the plugin from update site (Help -> Install new software), enter location described at http://code.google.com/intl/cs-CZ/javadevtools/download-wbpro.html.
+Install the plugin from update site (`Help -> Install new software`), enter location described at http://code.google.com/intl/cs-CZ/javadevtools/download-wbpro.html.
 
 == Packages ==
-
 Install packages "Eclipse Plug-in Development Environment" and "Eclipse RCP Plug-in Developer Resources" as described at http://www.vogella.de/articles/EclipseRCP/article.html#eclipseinstallation_download in chapter 2.2
 
 = Project setup =
+The whole SVN structure can be checked out manually from SVN to an external directory outside of the Eclipse workspace. The sub-projects located inside the checked-out directory can be separately imported to your Eclipse workspace using `File -> Import -> General -> Existing Projects into Workspace`. Although more complicated, this approach gives you additional flexibility and can be easily combined with the Subclipse SVN plugin.
+
 Checkout project sources as described on
 [http://code.google.com/a/eclipselabs.org/p/reprotool/source/checkout Checkout] page.
 
-Import project in eclipse (File -> Import -> Existing projects into workspace -> select directory with project, leave "Copy projects into workspace" unchecked).
+Pick a sub-project to import, e.g. `modules/ide`. Import project to your workspace as described above: `File -> Import -> General -> Existing Projects into Workspace`. Navigate to the sub-project directory (e.g. `modules/ide`). Also make sure the _Copy projects into workspace_ checkbox *is not checked* because we *don't want to copy* the project's content to the workspace, we want to modify the original files in the checked-out directory.
 
-Try launching of the plugin: Double click on `plugin.xml` and push play button in upper right corner. New instance of eclipse should start, inside this started IDE select Window -> Open perspective -> Other -> reprotool.
+Try launching of the plugin: Double click on `plugin.xml` and push play button in upper right corner. New instance of eclipse should start, inside this started IDE select `Window -> Open perspective -> Other -> reprotool`.
