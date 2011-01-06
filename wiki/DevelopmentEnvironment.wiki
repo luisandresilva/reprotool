@@ -1,16 +1,17 @@
 #summary This page is intended for reprotool developers as a guide to set their environment.
 
-= Eclipse =
+Note:The following steps were tested on _Ubuntu 10.04 LTS Lucid Lynx, kernel 2.6.32-27-generic i686 with 4GiB RAM_.
 
+= Eclipse =
 Download and install Eclipse Helios 3.6 from http://eclipse.org/downloads/, choose
 _Eclipse Modeling Tools (includes Incubating components)_.
-
-Note:These steps were tested on _Ubuntu 10.04 LTS - the Lucid Lynx_.
 
 === Subclipse SVN plugin ===
 This step is optional, you could easily work with command-line-based SVN client.
 To install Subclipse go to `Help -> Eclipse Marketplace` and search for "Subclipse".
 
+Subclipse requires native JavaHL library. This can be installed on Ubuntu using:
+`sudo apt-get install libsvn-java`
 
 === Window Builder Pro (optional) ===
 Window Builder Pro is used for visual development of GUI parts (dialogs, perspectives,...). 
