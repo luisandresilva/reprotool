@@ -6,7 +6,7 @@ Note:The following steps were tested on _Ubuntu 10.04 LTS Lucid Lynx, kernel 2.6
 Download and install Eclipse Helios 3.6 from http://eclipse.org/downloads/, choose
 _Eclipse Modeling Tools (includes Incubating components)_.
 
-=== Subclipse SVN plugin ===
+=== Subclipse SVN plugin (optional) ===
 This step is optional, you could easily work with command-line-based SVN client.
 To install Subclipse go to `Help -> Eclipse Marketplace` and search for "Subclipse".
 
@@ -16,6 +16,7 @@ Subclipse requires native JavaHL library. This can be installed on Ubuntu using:
 === Window Builder Pro (optional) ===
 Window Builder Pro is used for visual development of GUI parts (dialogs, perspectives,...). 
 Install the plugin from update site (`Help -> Install new software`), enter location described at http://code.google.com/intl/cs-CZ/javadevtools/download-wbpro.html.
+Select `GroupLayout`, `Infrastructure` and `SWT Designer`. Other modules shouldn't be needed.
 
 == Packages ==
 Install packages "Eclipse Plug-in Development Environment" and "Eclipse RCP Plug-in Developer Resources" as described at http://www.vogella.de/articles/EclipseRCP/article.html#eclipseinstallation_download in chapter 2.2
