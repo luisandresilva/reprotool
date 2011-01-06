@@ -21,6 +21,8 @@ Select `GroupLayout`, `Infrastructure` and `SWT Designer`. Other modules shouldn
 == Packages ==
 Install packages "Eclipse Plug-in Development Environment" and "Eclipse RCP Plug-in Developer Resources" as described at http://www.vogella.de/articles/EclipseRCP/article.html#eclipseinstallation_download in chapter 2.2
 
+Using same steps as above install package "Graphical Editing Framework Zest Visualization Toolkit".
+
 = Project setup =
 The whole SVN structure can be checked out manually from SVN to an external directory outside of the Eclipse workspace. The sub-projects located inside the checked-out directory can be separately imported to your Eclipse workspace using `File -> Import -> General -> Existing Projects into Workspace`. Although more complicated, this approach gives you additional flexibility and can be easily combined with the Subclipse SVN plugin.
 
