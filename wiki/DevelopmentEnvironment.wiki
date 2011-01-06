@@ -3,7 +3,9 @@
 = Eclipse =
 
 Download and install Eclipse Helios 3.6 from http://eclipse.org/downloads/, choose
-"Eclipse IDE for Java EE Developers".
+_Eclipse Modeling Tools (includes Incubating components)_.
+
+Note:These steps were tested on _Ubuntu 10.04 LTS - the Lucid Lynx_.
 
 === Subclipse ===
 Install Subclipse plugin from Eclipse marketplace (Help -> Eclipse Marketplace).
