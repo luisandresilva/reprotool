@@ -13,10 +13,10 @@ To install Subclipse go to `Help -> Eclipse Marketplace` and search for "Subclip
 Subclipse requires native JavaHL library. This can be installed on Ubuntu using:
 `sudo apt-get install libsvn-java`
 
-=== Window Builder Pro (optional) ===
-Window Builder Pro is used for visual development of GUI parts (dialogs, perspectives,...). 
+=== Window Builder Pro ===
+Window Builder Pro is used for visual development of GUI parts (dialogs, perspectives,...), it's library `GroupLayout` was used for layouting controls.
 Install the plugin from update site (`Help -> Install new software`), enter location described at http://code.google.com/intl/cs-CZ/javadevtools/download-wbpro.html.
-Select `GroupLayout`, `Infrastructure` and `SWT Designer`. Other modules shouldn't be needed.
+Select `GroupLayout`. If you plan to develop GUI, select also `Infrastructure` and `SWT Designer` (these packages are optional). Other modules shouldn't be needed.
 
 == Packages ==
 Install packages "Eclipse Plug-in Development Environment" and "Eclipse RCP Plug-in Developer Resources" as described at http://www.vogella.de/articles/EclipseRCP/article.html#eclipseinstallation_download in chapter 2.2
