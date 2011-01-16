@@ -9,6 +9,8 @@ Here is the ongoing discussion about the meta-models that we are going to use in
 
 The whole ReProTool meta-model consists of several smaller meta-models divided into separate packages. Each package should encapsulate a certain aspect of the intended application.
 
+http://svn.codespot.com/a/eclipselabs.org/reprotool/trunk/documentation/reprotool-model-overview.png
+
 == The Core ==
 
 == Files and Documents ==
