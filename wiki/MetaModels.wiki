@@ -7,19 +7,26 @@ Here is the ongoing discussion about the meta-models that we are going to use in
 
 = Parts of the Meta-Model =
 
-The whole ReProTool meta-model consists of several smaller meta-models divided into separate packages. Each package should encapsulate a certain aspect of the intended application.
+The whole !ReProTool meta-model consists of several smaller meta-models divided into separate packages. Each package should encapsulate a certain aspect of the intended application.
 
 http://svn.codespot.com/a/eclipselabs.org/reprotool/trunk/documentation/reprotool-model-overview.png
 
 == The Core ==
+Describes the concept of traceability links used throughout the whole transformation pipeline.
 
 == Files and Documents ==
+Represents input files. In the initial phase only plan text files and java source files.
 
 == Structural Artefacts ==
 === Generic Document Structure ===
+Textual documents will be split into sections and further to paragraphs. Some paragraphs might be later identified as requirements or even as a special type of requirements such as use-cases. The identification will be automatic or manual.
+
 === Abstract Syntax of Source Code ===
+In the initial phase, only Java source files will be parsed and the information about classes and methods will be extracted. These artefacts will be later connected with requirements.
 
 == Software Engineering Artefacts ==
-=== Requirements ===
-=== Use-cases ===
-=== Behaviour ===
+Contains sub-models describing different aspects of the software engineering domain:
+ * Requirements Model
+ * Domain Model
+ * Behaviour Model
+ * Component Model
