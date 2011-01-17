@@ -1,10 +1,10 @@
-#summary One-sentence summary of this page.
+#summary List of ideas for the model checkers.
 
 = Introduction =
 
 We will compile a list of checks using the ReProTool metamodel that could be interesting from the software engineering perspective.
 
-= List =
+= List of Ideas =
 
   * a call-graph can be used to identify suspicious methods such as public methods that have never been used.
 
