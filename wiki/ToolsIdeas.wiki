@@ -10,4 +10,4 @@ We will compile a list of checks using the ReProTool metamodel that could be int
 
   * find a public(?) method that is not connected to any requirement
 
-  * when AST from code is created, we can express some constraints that would otherwise be impossible within the original programming language. For example, in PHP, we could create a following constraint. The property A.p can only be access from class B. Accesses from A are also forbidden.
+  * when AST is created, we can express some constraints that would otherwise be impossible within the source programming language. For example, in PHP, we could create a following constraint. The property A.p can only be access from class B. Accesses from A are forbidden. These constraints could be encoded to the PHP comments.
