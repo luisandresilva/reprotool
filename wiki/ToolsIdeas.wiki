@@ -1,4 +1,4 @@
-#summary List of ideas for the model checkers.
+#summary List of ideas for model checkers
 
 = Introduction =
 
