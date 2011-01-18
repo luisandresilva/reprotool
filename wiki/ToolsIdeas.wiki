@@ -10,7 +10,7 @@ We will compile a list of checks using the !ReProTool metamodel that could be in
 
   * automated generation of contracts from specification
   
-  * Specification ->To Code comments (or context help in IDE)
+  * Specification -> Code documentation comments (or context help in IDE, e.g onMouseOver() all textual parts of specification related to identifier are displayed)
 
   * Automated generation of JUnit-like tests
 
