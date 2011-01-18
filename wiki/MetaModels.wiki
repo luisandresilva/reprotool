@@ -3,23 +3,25 @@
 
 = Introduction =
 
-Here is the ongoing discussion about the meta-models that we are going to use in our project.
+This page describes an ongoing discussion about the meta-model that describes all the aspects of the ReProTool project.
 
 = Parts of the Meta-Model =
 
-The whole !ReProTool meta-model consists of several smaller meta-models divided into separate packages. Each package should encapsulate a certain aspect of the intended application.
+The whole !ReProTool meta-model consists of several sub-meta-models divided into separate packages. Each package should encapsulate a certain aspect of the intended application e.g. Input, Static Structure, Behaviour...
+
+The following picture provides an overview of the main parts of the meta-model. In the first phase, we would like to limit the number of model elements. For example, we only consider plain text files and java source files as an input for the first prototype. Future releases of the application should, however, support more formats.
 
 http://svn.codespot.com/a/eclipselabs.org/reprotool/trunk/documentation/reprotool-model-overview.png
 
 == The Core ==
-Describes the concept of traceability links used throughout the whole transformation pipeline.
+The core model describes the concept of traceability links which is used throughout the whole transformation pipeline. Outcomes of transformation tools will be linked to the original elements using traceability links.
 
 == Files and Documents ==
-Represents input files. In the initial phase only plan text files and java source files.
+Represents input files. In the initial phase, only plan text files and java source files will be supported.
 
 == Structural Artefacts ==
 === Generic Document Structure ===
-Textual documents will be split into sections and further to paragraphs. Some paragraphs might be later identified as requirements or even as a special type of requirements such as use-cases. The identification will be automatic or manual.
+Textual documents will be split into sections and further to paragraphs. Some paragraphs might be later identified as requirements or even as a special type of requirements such as use-cases. The identification may be automatic or manual.
 
 === Abstract Syntax of Source Code ===
 In the initial phase, only Java source files will be parsed and the information about classes and methods will be extracted. These artefacts will be later connected with requirements.
@@ -30,3 +32,8 @@ Contains sub-models describing different aspects of the software engineering dom
  * Domain Model
  * Behaviour Model
  * Component Model
+
+=== Requirements model ===
+Requirements can be either a generic text paragraphs or can be further processed, such as Use-cases
+
+TODO...
