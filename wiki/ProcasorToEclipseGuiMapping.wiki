@@ -1,13 +1,41 @@
-#summary One-sentence summary of this page.
+#summary GUI used in reprotool project.
 
 = Introduction =
 
-Add your content here.
+This page describes GUI in the developed reprotool project and shows mapping from the procasor project. Reader should have at least basic user experience with procasor project.
 
+= Application GUI =
 
-= Details =
+== Application basic view structure ==
 
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
+The goal of the GUI mapping is tight integration with eclipse platform and extension of the existing views and components. For example, standard console view will be used to show the output of the linguistic tools.
+
+Reprotool perspective will divide space into two halves - left will be occupied by use case editor, right by the supportings views.
+
+http://svn.codespot.com/a/eclipselabs.org/reprotool/trunk/documentation/screens/ReprotoolOverviewScreen.png
+
+== Project overview ==
+
+_Use case step editor_ will be similar to editor used in procasor. It should provide extension point for linguistic tools to change color of the tick mark.
+
+TODO: variations - do they have meaning for use case in general or for procases only ?
+
+The view _Project overview_ will show description of the whole project, list of the project entities (actors, stackholders) and use cases. Composed entities will be shown in hierarchical view.
+
+TODO: In procasor are use cases bound to (procase) use case model. But this doesn't seem to be necessary for other types of analysis. Move mapping of the use cases to models into it's own _procase view_ ?
+
+TODO: Are conceptual objects needed ? Replace with actors & stakeholders ?
+
+http://svn.codespot.com/a/eclipselabs.org/reprotool/trunk/documentation/screens/ProjectOverviewScreen.png
+
+== Parse tree ==
+
+TODO: Extension points of the _parse tree view_.
+
+http://svn.codespot.com/a/eclipselabs.org/reprotool/trunk/documentation/screens/ParseTreeScreen.png
+
+== Input from text editor ==
+
+To input use case steps from text file standard text editor will be opened under _use case step editor_. Text selected with mouse should be added as use case into _use case step editor_ when user uses keyboard shortcut.
+
+http://svn.codespot.com/a/eclipselabs.org/reprotool/trunk/documentation/screens/TextFileEditorSplitScreen.png
