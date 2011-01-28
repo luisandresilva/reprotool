@@ -1,4 +1,4 @@
-#summary Meetings
+#summary Notes from meetings
 
 = 2011-01-28 =
 Participants: Simko, Pop, Krajicek, Vinarek
