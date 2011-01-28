@@ -18,7 +18,7 @@ Some description about interests of all stakeholders. Most of the sentences are 
 
   * we could check if for all "wants" there is at least one requirement
 
-== Preconditions/Postconditions
+== Preconditions/Postconditions ==
   * *precoditions* describe situation that should hold before the scenario can even begin and are *not tested* within the scenario.
   * should not describe obvious conditions
   * should not add "useless noise"
@@ -28,4 +28,3 @@ Some description about interests of all stakeholders. Most of the sentences are 
 In some specifications, there are use-case steps that contain references to other use-case steps:
   * looping a range of steps: e.g. "If some condition holds, repeat steps 2-3"
   * conditional jump: e.g. "if something happens, continue with step 4"
-
