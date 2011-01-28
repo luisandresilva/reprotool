@@ -1,5 +1,8 @@
-#summary Meetings.
+#summary Meetings
 
 = 2011-01-28 =
+Participants: Simko, Pop, Krajicek, Vinarek
+Topics to be discussed:
   * gui discussion: Should the use case steps be drawn as tree or as a list similar to Procasor ?
-  * 
+  * linguistic tools as a cloud sesrvice
+  * linguistic tools as an optional component
