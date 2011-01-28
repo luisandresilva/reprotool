@@ -15,7 +15,7 @@ Subclipse requires native JavaHL library. This can be installed on Ubuntu using:
 
 === Window Builder Pro ===
 Window Builder Pro is used for visual development of GUI parts (dialogs, perspectives,...), it's library `GroupLayout` was used for layouting controls.
-Install the plugin from update site (`Help -> Install new software`), enter location described at http://code.google.com/intl/cs-CZ/javadevtools/download-wbpro.html.
+Install the plugin from update site (`Help -> Install new software`), enter location http://dl.google.com/eclipse/inst/d2wbpro/latest/3.6 ([http://code.google.com/intl/cs-CZ/javadevtools/download-wbpro.html described here])
 Select `GroupLayout`. If you plan to develop GUI, select also `Infrastructure` and `SWT Designer` (these packages are optional). Other modules shouldn't be needed.
 
 == Packages ==
