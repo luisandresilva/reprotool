@@ -2,28 +2,42 @@
 
 Note:The following steps were tested on _Ubuntu 10.04 LTS Lucid Lynx, kernel 2.6.32-27-generic i686 with 4GiB RAM_.
 
-= Eclipse =
+Table of contents:
+<wiki:toc max_depth="2" />
+
+= Summary =
+  * Install Eclipse
+  * Install Subclipse SVN plugin
+  * Install Window Builder Pro plugin
+  * Install GEF Zest Visualisation Toolkit plugin
+  * Checkout the reprotool SVN repository
+  * Run REPROTOOL eclipse application
+
+= Installation Details =
+
+== Eclipse ==
 Download and install Eclipse Helios 3.6 from http://eclipse.org/downloads/, choose
 _Eclipse Modeling Tools (includes Incubating components)_.
 
-=== Subclipse SVN plugin (optional) ===
+== Subclipse SVN plugin (optional) ==
 This step is optional, you could easily work with command-line-based SVN client.
 To install Subclipse go to `Help -> Eclipse Marketplace` and search for "Subclipse".
 
 Subclipse requires native JavaHL library. This can be installed on Ubuntu using:
 `sudo apt-get install libsvn-java`
 
-=== Window Builder Pro ===
+== Window Builder Pro ==
 Window Builder Pro is used for visual development of GUI parts (dialogs, perspectives,...), it's library `GroupLayout` was used for layouting controls.
 Install the plugin from update site (`Help -> Install new software`), enter location http://dl.google.com/eclipse/inst/d2wbpro/latest/3.6 ([http://code.google.com/intl/cs-CZ/javadevtools/download-wbpro.html described here])
 Select `GroupLayout`. If you plan to develop GUI, select also `Infrastructure` and `SWT Designer` (these packages are optional). Other modules shouldn't be needed.
 
-== Packages ==
+== PDE plugins ==
 Install packages "Eclipse Plug-in Development Environment" and "Eclipse RCP Plug-in Developer Resources" as described at http://www.vogella.de/articles/EclipseRCP/article.html#eclipseinstallation_download in chapter 2.2
 
+== GEF Zest Visualization Toolkit ==
 Using same steps as above install package "Graphical Editing Framework Zest Visualization Toolkit".
 
-= Project setup =
+= Project Setup Details =
 The whole SVN structure can be checked out manually from SVN to an external directory outside of the Eclipse workspace. The sub-projects located inside the checked-out directory can be separately imported to your Eclipse workspace using `File -> Import -> General -> Existing Projects into Workspace`. Although more complicated, this approach gives you additional flexibility and can be easily combined with the Subclipse SVN plugin.
 
 Checkout project sources as described on
@@ -31,4 +45,5 @@ Checkout project sources as described on
 
 Pick a sub-project to import, e.g. `modules/ide`. Import project to your workspace as described above: `File -> Import -> General -> Existing Projects into Workspace`. Navigate to the sub-project directory (e.g. `modules/ide`). Also make sure the _Copy projects into workspace_ checkbox *is not checked* because we *don't want to copy* the project's content to the workspace, we want to modify the original files in the checked-out directory.
 
-Try launching of the plugin: Double click on `plugin.xml` and push play button in upper right corner. New instance of eclipse should start, inside this started IDE select `Window -> Open perspective -> Other -> reprotool`.
+= Running the application =
+Try launching the plugin: Double click on `plugin.xml` and push play button in upper right corner. New instance of eclipse should start, inside this started IDE select `Window -> Open perspective -> Other -> reprotool`.
