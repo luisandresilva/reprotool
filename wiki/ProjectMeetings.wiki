@@ -1,0 +1,5 @@
+#summary Meetings.
+
+= 2011-01-28 =
+  * gui discussion: Should the use case steps be drawn as tree or as a list similar to Procasor ?
+  * 
