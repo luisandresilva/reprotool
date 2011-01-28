@@ -20,3 +20,7 @@ We will compile a list of checks using the !ReProTool metamodel that could be in
 
 = To Check =
   * http://incubator.apache.org/opennlp/
+
+= Model Query
+  * [http://www.eclipse.org/modeling/emf/?project=query EMF Model Query project]
+  * [http://www.eclipse.org/modeling/emft/?project=teneo Teneo]
