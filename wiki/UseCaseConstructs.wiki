@@ -4,11 +4,11 @@
 
 Here, we are gathering possible constructs that appear in use-case specifications. They won't be necessarily supported by the ReProTool prototype. However, we should be aware of them.
 
+Useful bibliography:
+|| Larman || Applying UML and Patterns: An Introduction to Object-Oriented Analysis and Design and Iterative Development (3rd Edition) ||
+|| Cockburn || Writing effective use-cases ||
+
 = List of constructs =
-
-Larman: "Applying UML and Patterns: An Introduction to Object-Oriented Analysis and Design and Iterative Development (3rd Edition)"
-
-Cockburn: "Writing effective use-cases"
 
 == Scope ==
 Scope of a use-case can be company, system or component.
