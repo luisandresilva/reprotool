@@ -2,7 +2,20 @@
 
 = 2011-01-28 =
 Participants: Simko, Pop, Krajicek, Vinarek
-Topics to be discussed:
-  * gui discussion: Should the use case steps be drawn as tree or as a list similar to Procasor ?
-  * linguistic tools as a cloud sesrvice
+Topics discussed:
+  * gui discussion
+  * linguistic tools as a cloud service
   * linguistic tools as an optional component
+  * how to link textual documents with generated model
+
+= 2011-02-04 =
+Participants: Simko
+
+= 2011-02-11 =
+Participants: Simko
+
+= 2011-02-18 =
+Participants:
+
+= 2011-02-25 =
+Participants: Simko
