@@ -2,6 +2,7 @@
 
 = 2011-01-28 =
 Participants: Simko, Pop, Krajicek, Vinarek
+
 Topics discussed:
   * gui discussion
   * linguistic tools as a cloud service
