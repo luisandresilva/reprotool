@@ -13,11 +13,11 @@ Topics discussed:
 Participants: Simko
 
 = 2011-02-11 =
-Participants: Simko, Pop
+Participants: Simko, Pop, Vinarek
 
 
 = 2011-02-18 =
-Participants: Pop
+Participants: Pop, Vinarek
 
 = 2011-02-25 =
-Participants: Simko, Pop
+Participants: Simko, Pop, Vinarek
