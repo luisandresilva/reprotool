@@ -9,9 +9,6 @@ Topics discussed:
   * linguistic tools as an optional component
   * how to link textual documents with generated model
 
-= 2011-02-04 =
-Participants: Simko
-
 = 2011-02-11 =
 Participants: Simko, Pop
 
