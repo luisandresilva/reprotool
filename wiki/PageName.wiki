@@ -1,0 +1,6 @@
+#summary Page intended to collect ideas about traceability links.
+
+= External resources =
+
+Linda Westfall: Bidirectional Requirements Traceability:
+[http://www.compaid.com/caiinternet/ezine/westfall-bidirectional.pdf]
