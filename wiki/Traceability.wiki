@@ -1,0 +1,9 @@
+#summary Page intended to collect ideas about traceability links.
+
+= External resources =
+
+Linda Westfall:
+[http://www.compaid.com/caiinternet/ezine/westfall-bidirectional.pdf Bidirectional Requirements Traceability]
+
+Asuncion, François, Taylor:
+[http://dogbert.mse.cs.cmu.edu/MSE2009/Projects/JazzRockers/artifacts/Papers/Asuncion_et_al_2007__e2e_traceability_tool.pdf An End-To-End Industrial Software Traceability Tool]
