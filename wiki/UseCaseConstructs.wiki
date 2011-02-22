@@ -30,5 +30,5 @@ In some specifications, there are use-case steps that contain references to othe
   * looping a range of steps: e.g. "If some condition holds, repeat steps 2-3"
   * conditional jump: e.g. "if something happens, continue with step 4"
 
-== References to other use-cases
+== References to other use-cases ==
   * if some condition holds continue with use-case X
