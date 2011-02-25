@@ -17,14 +17,10 @@ Participants: Pop, Vinarek, Tomori, Fiala
 
 = 2011-02-25 =
 Participants: Simko, Pop, Vinarek, Tomori, Fiala, Krajicek
-TODO:
-  * roles (Tomori, Krajicek)
+  * roles assigned for Tomori and Krajicek
   * everybody should be able to run the prototype
-  * prototypes for the next week:
-    * visualization of a sentence (ParsedTreeView)
-    * booting of linguistic tools (LinguistincToolsView)
-
-  * plugins:
+  * tasks will be assigned using the issue tracker at the end of every meeting
+  * plugins discussed:
     * parsed sentence tree view
     * token view plugin
     * token wizard
