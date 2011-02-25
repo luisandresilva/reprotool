@@ -10,11 +10,16 @@ Topics discussed:
   * how to link textual documents with generated model
 
 = 2011-02-11 =
-Participants: Simko, Pop
-
+*Canceled*
 
 = 2011-02-18 =
 Participants: Pop, Vinarek, Tomori, Fiala
 
 = 2011-02-25 =
 Participants: Simko, Pop, Vinarek, Tomori, Fiala, Krajicek
+TODO:
+  * roles (Tomori, Krajicek)
+  * everybody should be able to run the prototype
+  * prototypes for the next week:
+    * visualization of a sentence (ParsedTreeView)
+    * booting of linguistic tools (LinguistincToolsView)
