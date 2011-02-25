@@ -7,38 +7,40 @@ Table of contents:
 
 = Summary =
   * Install Eclipse
-  * Install Subclipse SVN plugin
   * Install Window Builder Pro plugin
   * Install GEF Zest Visualisation Toolkit plugin
+  * (Optional) Install Subclipse SVN plugin
   * Checkout the reprotool SVN repository
   * Run REPROTOOL eclipse application
+
 
 = Installation Details =
 
 == Eclipse ==
 Download and install Eclipse Helios 3.6 from http://eclipse.org/downloads/, choose
 _Eclipse Modeling Tools (includes Incubating components)_.
+(download zip/gz, unpack to dir e.g. "eclipse-reprotool")
+
+== Window Builder Pro ==
+Window Builder Pro is used for visual development of GUI parts (dialogs, perspectives,...), it's library `GroupLayout` was used for layouting controls.
+Install the plugin from update site (`Help -> Install new software`), enter location http://dl.google.com/eclipse/inst/d2wbpro/latest/3.6 ([http://code.google.com/intl/cs-CZ/javadevtools/download-wbpro.html also described here])
+
+Select `SWT Designer Core`, `SWT Designer SWT_AWT Support` and `WindowBuilder GroupLayout Support`. 
+
+If you plan to develop GUI, select also `SWT Designer` (these packages are optional). Other modules shouldn't be needed.
+
+== GEF Zest Visualization Toolkit ==
+This plugin is required for rendering graphs.
+Open `Help->Update` select `Helios` update site and search for "zest". install package `Graphical Editing Framework Zest Visualization Toolkit`.
 
 == Subclipse SVN plugin (optional) ==
 This step is optional, you could easily work with command-line-based SVN client.
 To install Subclipse go to `Help -> Eclipse Marketplace` and search for "Subclipse".
 
-Subclipse requires native JavaHL library. This can be installed on Ubuntu using:
-`sudo apt-get install libsvn-java`
-
-== Window Builder Pro ==
-Window Builder Pro is used for visual development of GUI parts (dialogs, perspectives,...), it's library `GroupLayout` was used for layouting controls.
-Install the plugin from update site (`Help -> Install new software`), enter location http://dl.google.com/eclipse/inst/d2wbpro/latest/3.6 ([http://code.google.com/intl/cs-CZ/javadevtools/download-wbpro.html described here])
-
-Select `SWT Designer Core`, `SWT Designer SWT_AWT Support` and `WindowBuilder GroupLayout Support`. 
-
-If you plan to develop GUI, select also `Infrastructure` and `SWT Designer` (these packages are optional). Other modules shouldn't be needed.
-
-== GEF Zest Visualization Toolkit ==
-Open "Help->Update" select Helios update site and search for "zest". install package "Graphical Editing Framework Zest Visualization Toolkit"
+Subclipse requires native JavaHL library. This can be installed on Ubuntu using: `sudo apt-get install libsvn-java`
 
 = Project Setup Details =
-The whole SVN structure can be checked out manually from SVN to an external directory outside of the Eclipse workspace. The sub-projects located inside the checked-out directory can be separately imported to your Eclipse workspace using `File -> Import -> General -> Existing Projects into Workspace`. Although more complicated, this approach gives you additional flexibility and can be easily combined with the Subclipse SVN plugin.
+The whole SVN structure can be checked out manually from SVN to an external directory outside of the Eclipse workspace. Once checked out, the reprotool sub-projects can be separately imported to your Eclipse workspace using `File -> Import -> General -> Existing Projects into Workspace`. This approach might seem more complicated but it gives you additional flexibility and can also be easily combined with the Subclipse SVN plugin.
 
 Checkout project sources as described on
 [http://code.google.com/a/eclipselabs.org/p/reprotool/source/checkout Checkout] page.
