@@ -30,3 +30,19 @@ Participants: Simko, Pop, Vinarek, Tomori, Fiala, Krajicek
     * editor: split text to sections/paragraphs/requirements/use-cases/uc-steps
     * editor: text with hidden tags
     * merge/compare tagged texts
+
+
+= 2011-03-04 =
+Participants: Simko
+
+
+= 2011-03-11 =
+Participants: Simko
+
+
+= 2011-03-18 =
+Participants: Simko
+
+
+= 2011-03-25 =
+Participants: Simko
