@@ -23,3 +23,14 @@ TODO:
   * prototypes for the next week:
     * visualization of a sentence (ParsedTreeView)
     * booting of linguistic tools (LinguistincToolsView)
+
+  * plugins:
+    * parsed sentence tree view
+    * token view plugin
+    * token wizard
+    * linguistic tools (single plugin as a prototype)
+    * use-case steps editor plugin
+    * use-case navigator plugin
+    * editor: split text to sections/paragraphs/requirements/use-cases/uc-steps
+    * editor: text with hidden tags
+    * merge/compare tagged texts
