@@ -12,7 +12,7 @@ The goal of the GUI mapping is tight integration with eclipse platform and exten
 
 Reprotool perspective will divide space into two halves - left will be occupied by use case editor, right by the supportings views.
 
-http://svn.codespot.com/a/eclipselabs.org/reprotool/trunk/documentation/screens/ReprotoolOverviewScreen.png
+http://svn.codespot.com/a/eclipselabs.org/reprotool/trunk/documentation/screens/Perspective/PerspectiveOverview.png
 
 == Project overview ==
 
@@ -22,20 +22,25 @@ TODO: variations - do they have meaning for use case in general or for procases 
 
 The view _Project overview_ will show description of the whole project, list of the project entities (actors, stackholders) and use cases. Composed entities will be shown in hierarchical view.
 
-TODO: In procasor are use cases bound to (procase) use case model. But this doesn't seem to be necessary for other types of analysis. Move mapping of the use cases to models into it's own _procase view_ ?
-
 TODO: Are conceptual objects needed ? Replace with actors & stakeholders ?
 
-http://svn.codespot.com/a/eclipselabs.org/reprotool/trunk/documentation/screens/ProjectOverviewScreen.png
+http://svn.codespot.com/a/eclipselabs.org/reprotool/trunk/documentation/screens/ProjectOverview/ProjectOverview.png
+
+In procasor are use cases bound to (procase) use case model. But this 
+functionality seems to be important only for behavioral protocol generation.
+
+Therefore it should be moved into _use cases models_, which will be included in _procase plugin_. Filtering of the use cases according to model may be added to the _view menu_ in _project overview_.
+
+http://svn.codespot.com/a/eclipselabs.org/reprotool/trunk/documentation/screens/ProjectOverview/UseCasesModels.png
 
 == Parse tree ==
 
 TODO: Extension points of the _parse tree view_.
 
-http://svn.codespot.com/a/eclipselabs.org/reprotool/trunk/documentation/screens/ParseTreeScreen.png
+http://svn.codespot.com/a/eclipselabs.org/reprotool/trunk/documentation/screens/ParsedTree/UseCaseEditorParsedTree.png
 
 == Input from text editor ==
 
 To input use case steps from text file standard text editor will be opened under _use case step editor_. Text selected with mouse should be added as use case into _use case step editor_ when user uses keyboard shortcut.
 
-http://svn.codespot.com/a/eclipselabs.org/reprotool/trunk/documentation/screens/TextFileEditorSplitScreen.png
+http://svn.codespot.com/a/eclipselabs.org/reprotool/trunk/documentation/screens/TextEditor/UseCaseEditorTextEditorSplit.png
