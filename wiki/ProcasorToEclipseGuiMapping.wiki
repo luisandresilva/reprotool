@@ -4,6 +4,9 @@
 
 This page describes GUI in the developed reprotool project and shows mapping from the procasor project. Reader should have at least basic user experience with procasor project.
 
+Table of contents:
+<wiki:toc max_depth="2" />
+
 = Application GUI =
 
 == Application basic view structure ==
@@ -44,3 +47,6 @@ http://svn.codespot.com/a/eclipselabs.org/reprotool/trunk/documentation/screens/
 To input use case steps from text file standard text editor will be opened under _use case step editor_. Text selected with mouse should be added as use case into _use case step editor_ when user uses keyboard shortcut.
 
 http://svn.codespot.com/a/eclipselabs.org/reprotool/trunk/documentation/screens/TextEditor/UseCaseEditorTextEditorSplit.png
+
+= Useful links=
+[http://www.eclipsepluginsite.com] - tutorial about eclipse plugin development.
