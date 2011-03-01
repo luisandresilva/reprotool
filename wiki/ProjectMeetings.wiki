@@ -16,7 +16,7 @@ Topics discussed:
 Participants: Pop, Vinarek, Tomori, Fiala
 
 = 2011-02-25 =
-Participants: Simko, Pop, Vinarek, Tomori, Fiala, Krajicek
+Participants: Simko, Vinarek, Tomori, Krajicek
   * roles assigned for Tomori and Krajicek
   * everybody should be able to run the prototype
   * tasks will be assigned using the issue tracker at the end of every meeting
@@ -33,7 +33,7 @@ Participants: Simko, Pop, Vinarek, Tomori, Fiala, Krajicek
 
 
 = 2011-03-04 =
-Participants: Simko, Krajicek
+Participants: Simko, Krajicek, Vinarek
 
 
 = 2011-03-11 =
