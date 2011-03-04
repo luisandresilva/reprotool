@@ -34,7 +34,10 @@ Participants: Simko, Vinarek, Tomori, Krajicek
 
 = 2011-03-04 =
 Participants: Pop, Simko, Krajicek, Vinarek
-
+  * editor should not completely hide the tags (use different colors)
+  * model elements represent some concepts in the SE domain. They have multiple tags and will receive notifications if corresponding text elements changes, is deleted or is moved. The class representing the concept should implement such an interface.
+  * classification techniques for identification of SE artefacts
+  * we should remember the feedback from user about the classification
 
 = 2011-03-11 =
 Participants: Pop, Simko
