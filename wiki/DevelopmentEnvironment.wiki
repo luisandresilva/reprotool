@@ -39,11 +39,14 @@ To install Subclipse go to `Help -> Eclipse Marketplace` and search for "Subclip
 
 Subclipse requires native JavaHL library. This can be installed on Ubuntu using: `sudo apt-get install libsvn-java`
 
-== WireframeSketcher plugin (optional) ==
-This step is optional, [http://wireframesketcher.com WireframeSketcher] is tool for creation of GUI wireframes (see [ProcasorToEclipseGuiMapping]).
+== Wireframe Sketcher plugin (optional) ==
+This step is optional, [http://wireframesketcher.com WireframeSketcher] is tool for creation of GUI wireframes (see images in [ProcasorToEclipseGuiMapping]).
 To install WireframeSketcher go to `Help -> Install new software` and add http://wireframesketcher.com/updates update site.
 
+Import eclipse project with sketches into workspace from `documentation/ReproToolSketchProject`. Directory `documentation/screens` is intended for batch export of sketches to images.
+
 *Note*: WireframeSketcher is paid commercial software freeware, trial version was used to create GUI wireframes. Look at http://wireframesketcher.com/install.html for limitations and legal notices.
+
 
 = Project Setup Details =
 The whole SVN structure can be checked out manually from SVN to an external directory outside of the Eclipse workspace. Once checked out, the reprotool sub-projects can be separately imported to your Eclipse workspace using `File -> Import -> General -> Existing Projects into Workspace`. This approach might seem more complicated but it gives you additional flexibility and can also be easily combined with the Subclipse SVN plugin.
