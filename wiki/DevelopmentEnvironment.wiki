@@ -45,7 +45,7 @@ The whole SVN structure can be checked out manually from SVN to an external dire
 Checkout project sources as described on
 [http://code.google.com/a/eclipselabs.org/p/reprotool/source/checkout Checkout] page.
 
-Pick a sub-project to import, e.g. `modules/ide`. Import project to your workspace as described above: `File -> Import -> General -> Existing Projects into Workspace`. Navigate to the sub-project directory (e.g. `modules/ide`). Also make sure the _Copy projects into workspace_ checkbox *is not checked* because we *don't want to copy* the project's content to the workspace, we want to modify the original files in the checked-out directory.
+Pick a sub-projects to import, i.e. `modules/ide` and `modules/ReprotoolModel`. Import projects to your workspace as described above: `File -> Import -> General -> Existing Projects into Workspace`. Navigate to the sub-projects directory (e.g. `modules/ide`). Also make sure the _Copy projects into workspace_ checkbox *is not checked* because we *don't want to copy* the project's content to the workspace, we want to modify the original files in the checked-out directory.
 
 = Running the application =
 Try launching the plugin: Double click on `plugin.xml` and push play button in upper right corner. New instance of eclipse should start, inside this started IDE select `Window -> Open perspective -> Other -> reprotool`.
