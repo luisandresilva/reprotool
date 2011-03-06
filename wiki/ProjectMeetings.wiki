@@ -40,7 +40,7 @@ Participants: Pop, Simko, Krajicek, Vinarek
   * we should remember the feedback from user about the classification
 
 = 2011-03-11 =
-Participants: Pop, Simko, Krajicek
+Participants: Pop, Simko, Krajicek, Vinarek
 
 
 = 2011-03-18 =
