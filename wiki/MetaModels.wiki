@@ -5,6 +5,16 @@
 
 This page describes an ongoing discussion about the meta-model that describes all the aspects of the ReProTool project.
 
+= Persistence and querying for EMF =
+  * [http://www.eclipse.org/cdo/ CDO] + [http://www.hibernate.org/ Hibernate]
+  * Teneo
+  * ModelQuery
+  * EMF Triple
+  * [http://www.eclipse.org/emfindex/ EMF Index] ([http://wiki.eclipse.org/EmfIndex EmfWiki])
+
+= Other useful technologies =
+  * http://www.eclipse.org/ajdt/xref/
+
 = Parts of the Meta-Model =
 
 The whole !ReProTool meta-model consists of several sub-meta-models divided into separate packages. Each package should encapsulate a certain aspect of the intended application e.g. Input, Static Structure, Behaviour...
