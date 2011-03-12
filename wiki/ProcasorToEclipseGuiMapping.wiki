@@ -48,5 +48,14 @@ To input use case steps from text file standard text editor will be opened under
 
 http://svn.codespot.com/a/eclipselabs.org/reprotool/trunk/documentation/screens/TextEditor/UseCaseEditorTextEditorSplit.png
 
+= Eclipse databinding=
+Data binding is mechanism for data synchronization between model and view. Using this framework is preferred over using property change listeners which may cause infinite loops or memory leaks when used incorrectly.
+
 = Useful links=
 [http://www.eclipsepluginsite.com] - tutorial about eclipse plugin development.
+
+[http://code.google.com/javadevtools/wbpro/features/swt/data_binding/index.html] - eclipse databinding in !WindowBuilder Pro
+
+[http://www.vogella.de/articles/EclipseDataBinding/article.html] - eclipse databinding tutorial.
+
+[http://www.vogella.de/articles/EclipseDataBinding/article.html] - EMF + databinding tutorial.
