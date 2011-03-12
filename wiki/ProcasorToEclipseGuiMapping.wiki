@@ -59,3 +59,5 @@ Data binding is mechanism for data synchronization between model and view. Using
 [http://www.vogella.de/articles/EclipseDataBinding/article.html] - eclipse databinding tutorial.
 
 [http://www.vogella.de/articles/EclipseDataBinding/article.html] - EMF + databinding tutorial.
+
+[http://code.google.com/javadevtools/wbpro/wizards/databinding/automatic_0.html] - Automatic creation of dialogs (panels, ...) with databinding.
