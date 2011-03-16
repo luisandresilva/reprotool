@@ -1,0 +1,21 @@
+#summary How and where the REPROTOOL application could be used
+
+= Introduction =
+
+Here, we provide a list of usage scenarios of our REPROTOOL application. The list is intended to describe situations from the perspective of different stakeholders of a developed software system.
+
+= Usage Scenarios =
+
+REPROTOOL as a plug-in can be installed to an existing Eclipse IDE package, such as the "Eclipse IDE for Java developers". It will enrich the platform with various tools for handling requirements-engineering artefacts. For this purpose, the tool provides a special Eclipse perspective. 
+
+It should be noted that existing projects within the workspace can be used by our tool. The idea is that users should be able to gradually transform their existing projects using the tool to a projects that bind specification documents with code artefacts. Usually, a larger software project may be split into several Eclipse projects within the workspace. Specification document (and then EMF metadata) might then be stored within existing projects or a newly created project.
+
+  * REPROTOOL can therefore be used for aggregating of specification documents from multiple projects into one unit.
+
+Other ideas how REPROTOOL can help in the software engineering process? (TODO later)
+
+  * extraction of SE concepts from the documents into models (semi-automatic)
+  * indexing the documents using the model (semi-automatic)
+  * connecting fragments of the specification with code elements
+  * iterative improvement of the original specification (parts of the text replaced by generated text while at the same time keeping the rest of the text unmodified)
+  * to help writing unambiguous specification
