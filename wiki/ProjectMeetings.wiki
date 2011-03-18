@@ -46,14 +46,15 @@ Participants: Pop, Simko, Krajicek, Vinarek, Tomori
 = 2011-03-18 =
 Participants: Pop, Tomori, Vinarek
 
-  * Sentence negations
+* Sentence negations
   * Until next week report about existing tools (Word Net, NetEx tool)
   * Prepare results on example sentences from previous meeting
 
-  * Models:
+* Models:
   * Specification model - divide to more files (dir for Actory, for Use-case...,   related by URI links)
 
-* Tree view finished
+*GUI
+  *Tree view finished
 
 
 = 2011-03-25 =
