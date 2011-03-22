@@ -18,8 +18,11 @@ We will compile a list of checks using the !ReProTool metamodel that could be in
 
   * Some kind of a "meta-language": when we created AST, we can express some constraints that would otherwise be impossible within the original programming language. For example, in PHP, we could create a following constraint: The property {{{A.p}}} can only be access from class {{{B}}} while accesses from {{{A}}} are forbidden. These constraints could be encoded to the PHP comments.
 
-   * a private variable could contain a comment explaining that the variable is only used within some method. This can be used for checking.
+  * a private variable could contain a comment explaining that the variable is only used within some method. This can be used for checking.
  
+  * which parts of the traces encoded in the behaviour model are isolated and thus can potentially be executed in separate threads.
+
+  * detect and display conditions in natural language that lead to infinite cycles in the use-case when "GOTO" actions are used. Also display conditions that would break the cycle (potential corrections of such a behaviour)
 
 = To Check =
   * http://incubator.apache.org/opennlp/
