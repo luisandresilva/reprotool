@@ -1,9 +1,9 @@
 #summary Notes from meetings
 
 = 2011-01-28 =
-Participants: Simko, Pop, Krajicek, Vinarek
+*Participants:* Simko, Pop, Krajicek, Vinarek
 
-Topics discussed:
+*Topics discussed:*
   * gui discussion
   * linguistic tools as a cloud service
   * linguistic tools as an optional component
@@ -13,10 +13,10 @@ Topics discussed:
 *Canceled*
 
 = 2011-02-18 =
-Participants: Pop, Vinarek, Tomori, Fiala
+*Participants:* Pop, Vinarek, Tomori, Fiala
 
 = 2011-02-25 =
-Participants: Simko, Vinarek, Tomori, Krajicek
+*Participants:* Simko, Vinarek, Tomori, Krajicek
   * roles assigned for Tomori and Krajicek
   * everybody should be able to run the prototype
   * tasks will be assigned using the issue tracker at the end of every meeting
@@ -33,29 +33,34 @@ Participants: Simko, Vinarek, Tomori, Krajicek
 
 
 = 2011-03-04 =
-Participants: Pop, Simko, Krajicek, Vinarek
+*Participants:* Pop, Simko, Krajicek, Vinarek
   * editor should not completely hide the tags (use different colors)
   * model elements represent some concepts in the SE domain. They have multiple tags and will receive notifications if corresponding text elements changes, is deleted or is moved. The class representing the concept should implement such an interface.
   * classification techniques for identification of SE artefacts
   * we should remember the feedback from user about the classification
 
 = 2011-03-11 =
-Participants: Pop, Simko, Krajicek, Vinarek, Tomori
+*Participants:* Pop, Simko, Krajicek, Vinarek, Tomori
 
 
 = 2011-03-18 =
-Participants: Pop, Tomori, Vinarek
+*Participants:* Pop, Tomori, Vinarek
 
-* Sentence negations *
-  * Until next week report about existing tools (Word Net, NetEx tool)
+*Sentence negations*
+  * Until next week report about existing tools (Wordnet, NetEx tool)
   * Prepare results on example sentences from previous meeting
 
-* Models: *
-  * Specification model - divide to more files (dir for Actory, for Use-case...,   related by URI links)
+*Models:*
+  * Specification model - divide to more files (dir for Actors, for Use-case...,   related by URI links)
 
-* GUI *
+*GUI*
   *Tree view finished
 
-
 = 2011-03-25 =
-Participants: Pop, Simko, Tomori, Krajicek, Vinarek
+*Participants:* Pop, Simko, Tomori, Krajicek, Vinarek
+
+*Topics discussed:*
+  * some derived properties in the EMF model should be generated automatically (useCases reference vs requirements reference)
+  * At the moment, there is no need to keep hierarchy of actors
+  * We have designed an editor used by business analysts for editing tagged texts linked to the model. The editor should use nested tags. Every tag can be marked as deletable, editable, movable within container.
+  * Notification among UCStep view, parse tree view and UC Editor.
