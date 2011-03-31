@@ -27,6 +27,7 @@ We will compile a list of checks using the !ReProTool metamodel that could be in
 = To Check =
   * http://incubator.apache.org/opennlp/
   * http://www.column2.com/2010/12/raven-cloud-general-release-generate-process-maps-from-natural-language-text
+  * http://ucrel.lancs.ac.uk/wmatrix/
 
 = Model Query =
   * [http://www.eclipse.org/modeling/emf/?project=query EMF Model Query project]
