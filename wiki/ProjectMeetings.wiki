@@ -64,3 +64,15 @@
   * At the moment, there is no need to keep hierarchy of actors
   * We have designed an editor used by business analysts for editing tagged texts linked to the model. The editor should use nested tags. Every tag can be marked as deletable, editable, movable within container.
   * Notification among UCStep view, parse tree view and UC Editor.
+
+= 2011-04-01 =
+*Participants:* Simko, Tomori, Krajicek, Vinarek
+
+*Topics discussed:*
+  *
+
+= 2011-04-08 =
+*Participants:* Simko, Fiala, Krajicek, Vinarek
+
+*Topics discussed:*
+  *
