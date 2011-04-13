@@ -1,0 +1,71 @@
+#summary Linguistics explanation, tools and algorithms.
+
+= Linguistics tools =
+
+Suggested and used tools for linguistics analysis. We need to obtain a sentence structure and base form of all words. This process is composed of four parts, each is described below. 
+
+== Tokenizer ==
+
+A basic tool for string splitting. Tokenizer separates numbers from letters, separates words and deals with a punctuation.
+
+|| Input || Natural language sentence ||
+|| Output || Array of tokens (eg. words, numbers) ||
+
+=== Tools ===
+* _The EGYPT toolkit - perl tokenizer_
+
+Part of  a statistical machine translation toolkit.
+http://www.clsp.jhu.edu/ws99/projects/mt/
+
+* LingPipe - tokenizer (added in version 4.0.1)
+
+Good looking Java toolkit for processing text using computational linguistics.
+[http://alias-i.com/lingpipe/]
+
+* Simple Java tokenizer for regular expressions
+
+[http://introcs.cs.princeton.edu/72regular/Tokenizer.java.html]
+
+== Tagger ==
+Usually tool just for part-of-speech tagging. Identifies basic linguistic category for each word.
+
+|| Input || Array of tokens ||
+|| Output || Array of POS tagged tokens (eg. adjectives, verbs) ||
+
+=== Tools ===
+* _A Maximum Entropy Model for Part-Of-Speech Tagging_
+
+Java implementation of this tagger - [http://www.inf.ed.ac.uk/resources/nlp/local_doc/MXPOST.html]
+
+Another wrapper - [http://godel.stanford.edu/public/doc-versions/util/doc/api/csli/util/nlp/postag/MXPOST.html] as a part of basic tools (/util) at the Center for the Study of Language and Information at Stanford University [http://godel.stanford.edu/twiki/bin/view/Calo/CaloSoftwareMainPage]
+
+* _Stanford Log-linear Part-Of-Speech Tagger_
+
+Java implementation of the log-linear part-of-speech taggers
+[http://nlp.stanford.edu/software/tagger.shtml]
+
+== Parser ==
+
+Mainly a statistical parser. This tool is used to discover sentence structure, usually written as a syntactic tree. Part of a syntactic analysis.
+
+|| Input || Array of POS tagged tokens ||
+|| Output || Parse trees of each sentence ||
+
+
+== Morphological analyser ==
+
+= Sentence negation =
+|| Keywords: || positive ||
+
+Add your content here.  Format your content with:
+  * Text in *bold* or _italic_
+  * Headings, paragraphs, and lists
+  * Automatic links to other wiki pages
+
+== Reference ==
+
+* Ying He, Mehmet Kayaalp: _A Comparison of 13 Tokenizers on MEDLINE_ [http://www.lhncbc.nlm.nih.gov/lhc/docs/reports/2006/tr2006003.pdf]
+
+* Adwait Ratnaparkhi: _A Maximum Entropy Model for Part-Of-Speech Tagging_
+[www.ldc.upenn.edu/acl/W/W96/W96-0213.pdf]
+ 
