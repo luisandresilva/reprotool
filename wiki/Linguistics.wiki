@@ -8,21 +8,21 @@ Suggested and used tools for linguistics analysis. We need to obtain a sentence 
 
 A basic tool for string splitting. Tokenizer separates numbers from letters, separates words and deals with a punctuation.
 
-|| Input || Natural language sentence ||
+|| Input || Natural language sentence; negation detection ||
 || Output || Array of tokens (eg. words, numbers) ||
 
 === Tools ===
-* _The EGYPT toolkit - perl tokenizer_
+ * _The EGYPT toolkit - perl tokenizer_
 
 Part of  a statistical machine translation toolkit.
 http://www.clsp.jhu.edu/ws99/projects/mt/
 
-* LingPipe - tokenizer (added in version 4.0.1)
+ * LingPipe - tokenizer (added in version 4.0.1)
 
 Good looking Java toolkit for processing text using computational linguistics.
 [http://alias-i.com/lingpipe/]
 
-* Simple Java tokenizer for regular expressions
+ * Simple Java tokenizer for regular expressions
 
 [http://introcs.cs.princeton.edu/72regular/Tokenizer.java.html]
 
@@ -33,13 +33,13 @@ Usually tool just for part-of-speech tagging. Identifies basic linguistic catego
 || Output || Array of POS tagged tokens (eg. adjectives, verbs) ||
 
 === Tools ===
-* _A Maximum Entropy Model for Part-Of-Speech Tagging_
+ * _A Maximum Entropy Model for Part-Of-Speech Tagging_
 
 Java implementation of this tagger - [http://www.inf.ed.ac.uk/resources/nlp/local_doc/MXPOST.html]
 
 Another wrapper - [http://godel.stanford.edu/public/doc-versions/util/doc/api/csli/util/nlp/postag/MXPOST.html] as a part of basic tools (/util) at the Center for the Study of Language and Information at Stanford University [http://godel.stanford.edu/twiki/bin/view/Calo/CaloSoftwareMainPage]
 
-* _Stanford Log-linear Part-Of-Speech Tagger_
+ * _Stanford Log-linear Part-Of-Speech Tagger_
 
 Java implementation of the log-linear part-of-speech taggers
 [http://nlp.stanford.edu/software/tagger.shtml]
@@ -51,21 +51,46 @@ Mainly a statistical parser. This tool is used to discover sentence structure, u
 || Input || Array of POS tagged tokens ||
 || Output || Parse trees of each sentence ||
 
+=== Tools ===
+ * M. Collins
 
 == Morphological analyser ==
 
-= Sentence negation =
-|| Keywords: || positive ||
+Analysis and description of the structure of morphemes. For our purpose is sufficient obtaining lemmas (base forms). Eg. _have_ for _had_.
 
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
+|| Input || Parse trees of each sentence ||
+|| Output || Lemma for each word ||
+
+=== Tools ===
+ * _Morphological tool-set_
+Developed by G. Minnen at the University of Sussex [http://www.informatics.susx.ac.uk/research/groups/nlp/carroll/morph.html]
+
+= Sentence negation =
+|| Keywords: || negative-positive conversion ||
+
+ # Identification of a negation in sentence
+ # Dealing with negation
+
+- antonyms links in a corpora
+
+ * WordNet [http://wordnet.princeton.edu/]
+
+ * MIT Java Wordnet Interface (JWI) [http://projects.csail.mit.edu/jwi/]
 
 == Reference ==
+
+=== Tools ===
 
 * Ying He, Mehmet Kayaalp: _A Comparison of 13 Tokenizers on MEDLINE_ [http://www.lhncbc.nlm.nih.gov/lhc/docs/reports/2006/tr2006003.pdf]
 
 * Adwait Ratnaparkhi: _A Maximum Entropy Model for Part-Of-Speech Tagging_
 [www.ldc.upenn.edu/acl/W/W96/W96-0213.pdf]
+
+=== Sentence negation ===
+
+* Sanda Harabagiu, Andrew Hickl and Finley Lacatusu: _Negation, Contrast and Contradiction in Text Processing_ [www.aaai.org/Papers/AAAI/2006/AAAI06-120.pdf]
+
+* SSergey Goryachev, Margarita Sordo, Qing T. Zeng, Long Ngo: _Implementation and Evaluation of Four Different Methods of Negation Detection_ [https://www.i2b2.org/software/projects/hitex/negation.pdf]
+
+* Katsura, Y., Matsumoto, K., Ren, F.:_Flexible English writing support based on negative-positive conversion method_ [http://ieeexplore.ieee.org/xpl/freeabs_all.jsp?arnumber=5587778]
  
