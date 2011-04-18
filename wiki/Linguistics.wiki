@@ -88,7 +88,7 @@ Developed by G. Minnen at the University of Sussex [http://www.informatics.susx.
 
 === Sentence negation ===
 
-* Sanda Harabagiu, Andrew Hickl and Finley Lacatusu: _Negation, Contrast and Contradiction in Text Processing_ [www.aaai.org/Papers/AAAI/2006/AAAI06-120.pdf]
+* Sanda Harabagiu, Andrew Hickl and Finley Lacatusu: _Negation, Contrast and Contradiction in Text Processing_ [http://www.aaai.org/Papers/AAAI/2006/AAAI06-120.pdf]
 
 * SSergey Goryachev, Margarita Sordo, Qing T. Zeng, Long Ngo: _Implementation and Evaluation of Four Different Methods of Negation Detection_ [https://www.i2b2.org/software/projects/hitex/negation.pdf]
 
