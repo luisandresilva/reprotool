@@ -52,7 +52,14 @@ Mainly a statistical parser. This tool is used to discover sentence structure, u
 || Output || Parse trees of each sentence ||
 
 === Tools ===
- * M. Collins
+ * M. Collins parsing model
+[http://people.csail.mit.edu/mcollins/code.html]
+
+ * Multilingual Statistical Parsing Engine
+in Java - based on Michal Collins's parser [http://www.cis.upenn.edu/~dbikel/software.html#stat-parser]
+
+ * RASP: Robust Accurate Statistical Parsing toolkit
+bigger parser - [http://www.informatics.sussex.ac.uk/research/groups/nlp/projects/rasp.php]
 
 == Morphological analyser ==
 
@@ -77,20 +84,29 @@ Developed by G. Minnen at the University of Sussex [http://www.informatics.susx.
 
  * MIT Java Wordnet Interface (JWI) [http://projects.csail.mit.edu/jwi/]
 
-== Reference ==
+== Tools & Algorithms ==
 
-=== Tools ===
+ * Sentiment Analysis with Python NLTK Text Classification - online tool -http://text-processing.com/demo/sentiment/
 
-* Ying He, Mehmet Kayaalp: _A Comparison of 13 Tokenizers on MEDLINE_ [http://www.lhncbc.nlm.nih.gov/lhc/docs/reports/2006/tr2006003.pdf]
+ * Negation Detection Processes - basic algorithm - [http://blog.typeslashcode.com/voxpop/2010/02/negation-detection-processes/]
 
-* Adwait Ratnaparkhi: _A Maximum Entropy Model for Part-Of-Speech Tagging_
-[www.ldc.upenn.edu/acl/W/W96/W96-0213.pdf]
+= Reference =
 
-=== Sentence negation ===
+== Tools ==
 
-* Sanda Harabagiu, Andrew Hickl and Finley Lacatusu: _Negation, Contrast and Contradiction in Text Processing_ [http://www.aaai.org/Papers/AAAI/2006/AAAI06-120.pdf]
+ * Ying He, Mehmet Kayaalp: _A Comparison of 13 Tokenizers on MEDLINE_ [http://www.lhncbc.nlm.nih.gov/lhc/docs/reports/2006/tr2006003.pdf]
 
-* SSergey Goryachev, Margarita Sordo, Qing T. Zeng, Long Ngo: _Implementation and Evaluation of Four Different Methods of Negation Detection_ [https://www.i2b2.org/software/projects/hitex/negation.pdf]
+ * Adwait Ratnaparkhi: _A Maximum Entropy Model for Part-Of-Speech Tagging_ [www.ldc.upenn.edu/acl/W/W96/W96-0213.pdf]
 
-* Katsura, Y., Matsumoto, K., Ren, F.:_Flexible English writing support based on negative-positive conversion method_ [http://ieeexplore.ieee.org/xpl/freeabs_all.jsp?arnumber=5587778]
+== Sentence negation ==
+
+ * Sanda Harabagiu, Andrew Hickl and Finley Lacatusu: _Negation, Contrast and Contradiction in Text Processing_ [http://www.aaai.org/Papers/AAAI/2006/AAAI06-120.pdf]
+
+ * SSergey Goryachev, Margarita Sordo, Qing T. Zeng, Long Ngo: _Implementation and Evaluation of Four Different Methods of Negation Detection_ [https://www.i2b2.org/software/projects/hitex/negation.pdf]
+
+ * Katsura, Y., Matsumoto, K., Ren, F.:_Flexible English writing support based on negative-positive conversion method_ [http://ieeexplore.ieee.org/xpl/freeabs_all.jsp?arnumber=5587778]
+
+ * Pradeep G. Mutalik, MD, Aniruddha Deshpande, MD, and Prakash M. Nadkarni, MD: _Use of General-purpose Negation Detection to Augment Concept Indexing of Medical Documents_ [http://www.ncbi.nlm.nih.gov/pmc/articles/PMC130070/]
+
+
  
