@@ -1,5 +1,8 @@
 #summary Linguistics explanation, tools and algorithms.
 
+Table of contents:
+<wiki:toc max_depth="2" />
+
 = Linguistics tools =
 
 Suggested and used tools for linguistics analysis. We need to obtain a sentence structure and base form of all words. This process is composed of four parts, each is described below. 
