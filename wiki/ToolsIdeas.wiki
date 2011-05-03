@@ -34,5 +34,5 @@ We will compile a list of checks using the !ReProTool metamodel that could be in
   * [http://www.eclipse.org/modeling/emf/?project=query EMF Model Query project]
   * [http://www.eclipse.org/modeling/emft/?project=teneo Teneo]
 
-= Related work
+= Related work =
  * RT @grafandreas: Referencing from natural language Requirements to Models with Papyrus, ReqIF, ProR and Xtext: vimeo.com/22699232
