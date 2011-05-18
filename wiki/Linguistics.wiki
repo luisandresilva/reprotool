@@ -42,6 +42,8 @@ Java implementation of this tagger - [http://www.inf.ed.ac.uk/resources/nlp/loca
 
 Another wrapper - [http://godel.stanford.edu/public/doc-versions/util/doc/api/csli/util/nlp/postag/MXPOST.html] as a part of basic tools (/util) at the Center for the Study of Language and Information at Stanford University [http://godel.stanford.edu/twiki/bin/view/Calo/CaloSoftwareMainPage]
 
+Penn Treebank Tags - explanation of all tags [http://bulba.sdsu.edu/jeanette/thesis/PennTags.html#RB]
+
  * _Stanford Log-linear Part-Of-Speech Tagger_
 
 Java implementation of the log-linear part-of-speech taggers
@@ -84,6 +86,7 @@ Developed by G. Minnen at the University of Sussex [http://www.informatics.susx.
 - antonyms links in a corpora
 
  * WordNet [http://wordnet.princeton.edu/]
+Testing WordNet online - [http://wordnetweb.princeton.edu/perl/webwn]
 
  * MIT Java Wordnet Interface (JWI) [http://projects.csail.mit.edu/jwi/]
 
@@ -99,7 +102,7 @@ Developed by G. Minnen at the University of Sussex [http://www.informatics.susx.
 
  * Ying He, Mehmet Kayaalp: _A Comparison of 13 Tokenizers on MEDLINE_ [http://www.lhncbc.nlm.nih.gov/lhc/docs/reports/2006/tr2006003.pdf]
 
- * Adwait Ratnaparkhi: _A Maximum Entropy Model for Part-Of-Speech Tagging_ [www.ldc.upenn.edu/acl/W/W96/W96-0213.pdf]
+ * Adwait Ratnaparkhi: _A Maximum Entropy Model for Part-Of-Speech Tagging_ [http://www.ldc.upenn.edu/acl/W/W96/W96-0213.pdf]
 
 == Sentence negation ==
 
