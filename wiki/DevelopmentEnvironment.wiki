@@ -31,7 +31,7 @@ If you plan to develop GUI, select also `SWT Designer` (these packages are optio
 
 == GEF Zest Visualization Toolkit ==
 This plugin is required for rendering graphs.
-Open `Help->Update` select `Helios` update site and search for "zest". install package `Graphical Editing Framework Zest Visualization Toolkit`.
+Open `Help->Update` select `http://download.eclipse.org/tools/gef/updates/milestones/` update site and search for "zest". install package `Graphical Editing Framework Zest Visualization Toolkit` version 1.3.0 or newer.
 
 == Subclipse SVN plugin (optional) ==
 This step is optional, you could easily work with command-line-based SVN client.
