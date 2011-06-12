@@ -1,0 +1,54 @@
+#summary Common practices used in project
+#labels Phase-Implementation
+
+= Introduction =
+
+This page is intended to collect basic guidelines used across whole reprotool project.
+
+= Error handling in eclipse (displaying + logging)=
+
+Eclipse has own mechanism to display and log exceptions.
+
+Main parts are:
+  * `IStatus` - Wrapped information (message, exception) with severity.
+  * `StatusManager` - Class accepting statuses and hints how to handle them. In the example below the status is passed with flag `StatusManager.BLOCK | StatusManager.LOG` thus it will be logged to the file (and showed in the _Problems view_) and modal dialog will be shown to the user.
+
+Example (from [ProjectWizard.java]):
+
+{{{
+IStatus status = new Status(IStatus.ERROR, Activator.PLUGIN_ID, "Error during project initialization", exception);
+StatusManager.getManager().handle(status, StatusManager.BLOCK | StatusManager.LOG);
+}}}
+
+Log file is located in `<workspace-dir>\.metadata\.log`
+
+More about eclipse error handling can be found at
+[http://wiki.eclipse.org/Status_Handling_Best_Practices]
+
+= Javadoc =
+Minimal requirement is to have top level comment for each class with `@author` tag filled.
+Desired situation is to have every public class/method/field
+documented when work is finished.
+
+|| Hint: Comments can be inserted with shortcut `alt + shift + j` ||
+
+= Code formatting =
+Project `reprotool.ide` has associated code-formatting settings to unify formatting style (i.e. indenting with tabs vs spaces, line length, ...). Style defined by this settings should be "the right one", so that the whole project can be reformatted with it.
+
+To prevent eclipse from formatting your code, surround the code with `@formatter` tags like this (this should be rather rare):
+
+{{{
+//@formatter:off
+MyClass.method()
+  .anotherMethod()
+  .yetAnotherMethod();
+//@formatter:on
+}}}
+
+Path to view/edit settings:
+`Project -> Properties -> Java Code Style -> Formatter -> Edit`
+
+|| Hint: Code can be formatted with shortcut `ctrl + shift + f` ||
+
+= Internationalization =
+TBD
