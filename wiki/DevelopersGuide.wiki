@@ -51,4 +51,22 @@ Path to view/edit settings:
 || Hint: Code can be formatted with shortcut `ctrl + shift + f` ||
 
 = Internationalization =
-TBD
+
+Externalized strings are placed by EMF code generator into into plugin.properties file. This how-to explains string externalization in non-generated EMF plugin.
+
+== To externalize strings from java source files: ==
+
+ # Open `META-INF/MANIFEST.MF` file and add `"Bundle-Localization: plugin"` line.
+ # Right click on project, select _Source_ and _Externalize Strings..._
+ # In _Externalize Strings_ dialog change _"Key"_ of each externalized string to something meaningful.
+ # Click on _"Configure"_, change _Class name_ to class containing plugin activator.
+ # Change _Property file name_ to `plugin.properties`.
+ # Click on _"Configure"_ again and change _"Substitution pattern"_ to `INSTANCE.getString(${key})`.
+ # In _Externalize Strings_ click on _Next_ and _Finish_.
+ # Move generated `plugin.properties` to plugin root folder.
+ # Open `plugin.xml`, go to _"Build"_ tab and check `"plugin.properties"` in _Binary Build_.
+ # Try to run plugin(s) with new configuration.
+
+== To externalize strings from bundle files: ==
+
+Open `plugin.xml` and in _"Overview"_ tab click to _"Externalize Strings Wizard"_, select strings and finish dialog.
