@@ -5,6 +5,8 @@
 
 This page is intended to collect basic guidelines used across whole reprotool project.
 
+<wiki:toc max_depth="2" />
+
 = Error handling in eclipse (displaying + logging)=
 
 Eclipse has own mechanism to display and log exceptions.
@@ -70,3 +72,18 @@ Externalized strings are placed by EMF code generator into into plugin.propertie
 == To externalize strings from bundle files: ==
 
 Open `plugin.xml` and in _"Overview"_ tab click to _"Externalize Strings Wizard"_, select strings and finish dialog. http://svn.codespot.com/a/eclipselabs.org/reprotool/wiki/img/string-externalization/externalize-bundle-strings.PNG
+
+= Eclipse/EMF databinding =
+Data binding is mechanism for data synchronization between model and view. Using this framework is preferred over using property change listeners which may cause infinite loops or memory leaks when used incorrectly.
+
+== Useful links==
+
+[http://www.eclipsepluginsite.com] - tutorial about eclipse plugin development.
+
+[http://code.google.com/javadevtools/wbpro/features/swt/data_binding/index.html] - eclipse databinding in !WindowBuilder Pro
+
+[http://www.vogella.de/articles/EclipseDataBinding/article.html] - eclipse databinding tutorial.
+
+[http://www.vogella.de/articles/EclipseDataBinding/article.html] - EMF + databinding tutorial.
+
+[http://code.google.com/javadevtools/wbpro/wizards/databinding/automatic_0.html] - Automatic creation of dialogs (panels, ...) with databinding.
