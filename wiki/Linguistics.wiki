@@ -3,6 +3,10 @@
 Table of contents:
 <wiki:toc max_depth="2" />
 
+= General resources =
+ * Stanford links [http://nlp.stanford.edu/links/statnlp.html]
+ * Software resources [http://www-a2k.is.tokushima-u.ac.jp/member/kita/NLP/nlp_tools.html]
+
 = Linguistics tools =
 
 Suggested and used tools for linguistics analysis. We need to obtain a sentence structure and base form of all words. This process is composed of four parts, each is described below. 
@@ -76,6 +80,20 @@ Analysis and description of the structure of morphemes. For our purpose is suffi
 === Tools ===
  * _Morphological tool-set_
 Developed by G. Minnen at the University of Sussex [http://www.informatics.susx.ac.uk/research/groups/nlp/carroll/morph.html]
+
+ * _mate-tools_ (anna)
+Tools set including lemmatiyer with models [http://code.google.com/p/mate-tools/]
+
+ * _Lttoolbox-java_
+Part of Apertium project (translator) - java implementation [http://wiki.apertium.org/wiki/Lttoolbox-java]
+
+== General tools ==
+ * _Core NLP_
+Stanford suite of Core NLP Tools (allmost all operations)
+[http://nlp.stanford.edu/software/corenlp.shtml]
+
+ * _XTAG_
+Tool for operations with Tree Adjoining Grammars [http://www.cis.upenn.edu/~xtag/]
 
 = Sentence negation =
 || Keywords: || negative-positive conversion ||
