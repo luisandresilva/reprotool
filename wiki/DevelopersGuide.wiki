@@ -76,6 +76,9 @@ Open `plugin.xml` and in _"Overview"_ tab click to _"Externalize Strings Wizard"
 = Eclipse/EMF databinding =
 Data binding is mechanism for data synchronization between model and view. Using this framework is preferred over using property change listeners which may cause infinite loops or memory leaks when used incorrectly.
 
+Note that !WindowBuilder Pro v1.0.0 does not have support for EMFEditProperties which interact with domain model trough EMF commands. Therefore GUI designer is not used
+to generate a binding and it is created manually.
+
 == Useful links==
 
 [http://www.eclipsepluginsite.com] - tutorial about eclipse plugin development.
@@ -83,5 +86,7 @@ Data binding is mechanism for data synchronization between model and view. Using
 [http://code.google.com/javadevtools/wbpro/features/swt/data_binding/index.html] - eclipse databinding in !WindowBuilder Pro
 
 [http://www.vogella.de/articles/EclipseDataBinding/article.html] - eclipse databinding tutorial.
+
+[http://tomsondev.bestsolution.at/2009/06/06/galileo-improved-emf-databinding-support/] - series of blog posts about new EMF binding using EMF commands to interact with domain model.
 
 [http://code.google.com/javadevtools/wbpro/wizards/databinding/automatic_0.html] - Automatic creation of dialogs (panels, ...) with databinding.
