@@ -21,8 +21,8 @@ Download and install Eclipse Helios 3.6 from http://eclipse.org/downloads/, choo
 _Eclipse Modeling Tools (includes Incubating components)_.
 (download zip/gz, unpack to dir e.g. "eclipse-reprotool")
 
-== Window Builder Pro ==
-Window Builder Pro is used for visual development of GUI parts (dialogs, perspectives,...), it's library `GroupLayout` was used for layouting controls.
+== Window Builder Pro (optional) ==
+This step is optional, Window Builder Pro is used for visual development of GUI parts (dialogs, perspectives,...).
 Install the plugin from update site (`Help -> Install new software`), enter location http://dl.google.com/eclipse/inst/d2wbpro/latest/3.6 ([http://code.google.com/intl/cs-CZ/javadevtools/download-wbpro.html also described here])
 
 Select `SWT Designer Core`, `SWT Designer SWT_AWT Support` and `WindowBuilder GroupLayout Support`. 
@@ -38,6 +38,8 @@ This step is optional, you could easily work with command-line-based SVN client.
 To install Subclipse go to `Help -> Eclipse Marketplace` and search for "Subclipse".
 
 Subclipse requires native JavaHL library. This can be installed on Ubuntu using: `sudo apt-get install libsvn-java`
+
+*Note*: If imported projects are not recognized as connected to SVN, try checkout with older version of the svn client. Problem occured with subclipse 1.6.x version and [http://tortoisesvn.net/ tortoise svn] version 1.7.x. Switch to older 1.6.x tortoise svn client solved the problem.
 
 == !WireframeSketcher plugin (optional) ==
 This step is optional, [http://wireframesketcher.com WireframeSketcher] is tool for creation of GUI wireframes (see images in [ProcasorToEclipseGuiMapping]).
