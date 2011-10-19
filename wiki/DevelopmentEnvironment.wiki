@@ -7,6 +7,7 @@ Table of contents:
 
 = Summary =
   * Install Eclipse
+  * Install XText (contains MWE2)
   * Install Window Builder Pro plugin
   * Install GEF Zest Visualisation Toolkit plugin
   * (Optional) Install Subclipse SVN plugin
@@ -20,6 +21,10 @@ Table of contents:
 Download and install Eclipse Helios 3.6 from http://eclipse.org/downloads/, choose
 _Eclipse Modeling Tools (includes Incubating components)_.
 (download zip/gz, unpack to dir e.g. "eclipse-reprotool")
+
+== XText (contains MWE2) ==
+In Eclipse Menu: `Help -> Install Modeling Components`, search for XText and click install. The MWE2 plugins are needed for code generation separating hand-written code from genrated code.
+This approach is inspired by Moritz Eysholdt's presentation at ECLIPSECON'11: http://www.slideshare.net/meysholdt/codegeneration-goodies
 
 == Window Builder Pro (optional) ==
 This step is optional, Window Builder Pro is used for visual development of GUI parts (dialogs, perspectives,...).
