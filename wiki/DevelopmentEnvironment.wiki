@@ -18,7 +18,7 @@ Table of contents:
 = Installation Details =
 
 == Eclipse ==
-Download and install Eclipse Helios 3.6 from http://eclipse.org/downloads/, choose
+Download and install Eclipse Indigo 3.7 from http://eclipse.org/downloads/, choose
 _Eclipse Modeling Tools (includes Incubating components)_.
 (download zip/gz, unpack to dir e.g. "eclipse-reprotool")
 
@@ -40,7 +40,8 @@ Open `Help->Update` select `http://download.eclipse.org/tools/gef/updates/milest
 
 == Subclipse SVN plugin (optional) ==
 This step is optional, you could easily work with command-line-based SVN client.
-To install Subclipse go to `Help -> Eclipse Marketplace` and search for "Subclipse".
+~~To install Subclipse go to `Help -> Eclipse Marketplace` and search for "Subclipse".~~
+Install Subclipse from update site http://subclipse.tigris.org/update_1.6.x (`help -> install new software`).
 
 Subclipse requires native JavaHL library. This can be installed on Ubuntu using: `sudo apt-get install libsvn-java`
 
