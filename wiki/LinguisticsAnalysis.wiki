@@ -1,8 +1,17 @@
 #summary Explanation of the process.
 
-= Introduction =
+= Linguistics Analysis =
 
-All tools connected.
+== Parser ==
 
+[http://svn.codespot.com/a/eclipselabs.org/reprotool/wiki/img/ling/sentence_tree.gif]
+
+Parsed tree of sentence "Administrator sends messages".
+
+== Linguistics tools connections ==
+
+[http://svn.codespot.com/a/eclipselabs.org/reprotool/wiki/img/ling/analyse_graph.gif]
+
+Connection of all linguistics tools.
 
 = Details =
