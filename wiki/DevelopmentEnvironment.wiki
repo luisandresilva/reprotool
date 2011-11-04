@@ -64,5 +64,12 @@ Checkout project sources as described on
 
 Pick a sub-projects to import, i.e. `modules/ide` and `modules/ReprotoolModel`. Import projects to your workspace as described above: `File -> Import -> General -> Existing Projects into Workspace`. Navigate to the sub-projects directory (e.g. `modules/ide`). Also make sure the _Copy projects into workspace_ checkbox *is not checked* because we *don't want to copy* the project's content to the workspace, we want to modify the original files in the checked-out directory.
 
+In `reprotool.fm.nusmv` project right click on `nusmvtools-dependencies.psf` and select `Import Project Set...`. This step will checkout svn projects from external NuSVN repository.
+
+= Generating source files from model =
+In `reprotool.model` project right click on `src/reprotool.model/reprotool.model.mwe2` file, select `Run As -> MWE2 Workflow`. Model source files will be generated.
+
+Double click on `model/reprotool.model.genmodel` and in opened editor right click on `Reprotool` root node. Select `Generate Edit Code` and `Generate Editor Code`.
+
 = Running the application =
 Try launching the plugin: Double click on `plugin.xml` and push play button in upper right corner. New instance of eclipse should start, inside this started IDE select `Window -> Open perspective -> Other -> reprotool`.
