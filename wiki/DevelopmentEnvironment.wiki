@@ -28,7 +28,7 @@ This approach is inspired by Moritz Eysholdt's presentation at ECLIPSECON'11: ht
 
 == Window Builder Pro (optional) ==
 This step is optional, Window Builder Pro is used for visual development of GUI parts (dialogs, perspectives,...).
-Install the plugin from update site (`Help -> Install new software`), enter location http://dl.google.com/eclipse/inst/d2wbpro/latest/3.6 ([http://code.google.com/intl/cs-CZ/javadevtools/download-wbpro.html also described here])
+Install the plugin from update site (`Help -> Install new software`), enter location http://dl.google.com/eclipse/inst/d2wbpro/latest/3.7 ([http://code.google.com/intl/cs-CZ/javadevtools/download-wbpro.html also described here])
 
 Select `SWT Designer Core`, `SWT Designer SWT_AWT Support` and `WindowBuilder GroupLayout Support`. 
 
