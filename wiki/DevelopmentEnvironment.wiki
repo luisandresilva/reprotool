@@ -38,6 +38,13 @@ If you plan to develop GUI, select also `SWT Designer` (these packages are optio
 This plugin is required for rendering graphs.
 Open `Help->Update` select `http://download.eclipse.org/tools/gef/updates/milestones/` update site and search for "zest". install package `Graphical Editing Framework Zest Visualization Toolkit` version 1.3.0 or newer.
 
+== EMF plugin update ==
+Eclipse after installation of required plugins updates also EMF plugins (tested 12. 11. 2011). Unfortunately this update contains bug (see issue 40).
+Steps to remove the bug:
+  # [http://www.eclipse.org/modeling/download.php?file=/modeling/emf/emf/downloads/drops/2.7.x/M201110311121/emf-xsd-Update-M201110311121.zip Download maintanance build M201110311121] from [http://www.eclipse.org/modeling/emf/downloads/?project=emf EMF downloads section].
+  # In Eclipse select `Help -> Install New Software ... -> Add... -> Archive...` and in opened dialog select downloaded zip archieve.
+  # Check `EMF - Eclipse Modeling Framework Core Runtime`, finish the update and restart Eclipse. http://svn.codespot.com/a/eclipselabs.org/reprotool/wiki/img/emf-bugfix/emf-bugfix-install.PNG
+
 == Subclipse SVN plugin (optional) ==
 This step is optional, you could easily work with command-line-based SVN client.
 ~~To install Subclipse go to `Help -> Eclipse Marketplace` and search for "Subclipse".~~
