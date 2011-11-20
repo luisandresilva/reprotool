@@ -67,12 +67,15 @@ Mainly a statistical parser. This tool is used to discover sentence structure, u
  * Multilingual Statistical Parsing Engine
 in Java - based on Michal Collins's parser [http://www.cis.upenn.edu/~dbikel/software.html#stat-parser]
 
+ * MaltParser
+modern data-driven dependency parser in Java [http://maltparser.org/]
+
  * RASP: Robust Accurate Statistical Parsing toolkit
 bigger parser - [http://www.informatics.sussex.ac.uk/research/groups/nlp/projects/rasp.php]
 
 == Morphological analyser ==
 
-Analysis and description of the structure of morphemes. For our purpose is sufficient obtaining lemmas (base forms). Eg. _have_ for _had_.
+Analysis and description of the structure of morphemes. For our purpose is sufficient obtaining lemmas (base forms). Eg. _have_ for _had_. Lemmatizers are finding only lemmas, stemmers are for finding stems (eg. _bug_ for _debugging_).
 
 || Input || Parse trees of each sentence ||
 || Output || Lemma for each word ||
@@ -82,7 +85,7 @@ Analysis and description of the structure of morphemes. For our purpose is suffi
 Developed by G. Minnen at the University of Sussex [http://www.informatics.susx.ac.uk/research/groups/nlp/carroll/morph.html]
 
  * _mate-tools_ (anna)
-Tools set including lemmatiyer with models [http://code.google.com/p/mate-tools/]
+Tools set including lemmatizer with models [http://code.google.com/p/mate-tools/]
 
  * _Lttoolbox-java_
 Part of Apertium project (translator) - java implementation [http://wiki.apertium.org/wiki/Lttoolbox-java]
