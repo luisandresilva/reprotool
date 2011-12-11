@@ -90,3 +90,10 @@ to generate a binding and it is created manually.
 [http://tomsondev.bestsolution.at/2009/06/06/galileo-improved-emf-databinding-support/] - series of blog posts about new EMF binding using EMF commands to interact with domain model.
 
 [http://code.google.com/javadevtools/wbpro/wizards/databinding/automatic_0.html] - Automatic creation of dialogs (panels, ...) with databinding.
+
+== How to display a launch configuration in "favorites" menu ==
+  * Open menu _Run -> Run Configurations..._
+  * Select a Launch Configuration or create a new one
+  * Select the "Common" tab
+  * Select "Shared file" and insert path to the directory where the configuration will be stored, such as /myproject/.launch
+  * Adjust the checkboxes in "Display in favorites menu" (Run, Debug or both)
