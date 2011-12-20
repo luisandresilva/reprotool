@@ -1,5 +1,4 @@
 #summary Common practices used in project
-#labels Phase-Implementation
 
 = Introduction =
 
@@ -97,3 +96,14 @@ to generate a binding and it is created manually.
   * Select the _Common_ tab
   * Select _Shared file_ and insert path to the directory where the configuration will be stored, such as `/myproject/.launch`
   * Adjust the checkboxes in _Display in favorites menu_ (_Run_, _Debug_ or both)
+
+== Accessing eclipse plug-in extensions from code ==
+{{{
+  IExtensionPoint[] extPoints =
+    Platform.getExtensionRegistry().getExtensionPoints("my.plugin.id");
+
+  for (IExtensionPoint extPoint : extPoints) {
+    IExtension[] extensions = extPoint.getExtensions();
+    // do simething with extensions
+  }
+}}}
