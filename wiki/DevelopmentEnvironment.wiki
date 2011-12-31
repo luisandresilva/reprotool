@@ -64,6 +64,20 @@ Import eclipse project with sketches into workspace from `documentation/ReproToo
 
 *Note*: !WireframeSketcher is paid commercial software freeware, trial version was used to create GUI wireframes. Look at http://wireframesketcher.com/install.html for limitations and legal notices.
 
+== Maven Integration for Eclipse (optional) ==
+Maven with [http://www.eclipse.org/tycho/ Tycho] plugin is used for build of the eclipse plugins on the build server. You don't need this plugin for development but it's useful to ensure that your plugin is  correctly set for headless build.
+
+To install Maven plugin go to `Help -> Eclipse Marketplace` and search for "maven integration for eclipse" and install the found plugin.
+
+To build all reprotool plugins right-click on `pom.xml` in `reprotool.maven.aggregator` and select `Run as -> Maven install`.
+Don't be scared that initial build takes long time and downloads many dependencies.
+
+More about Maven + Tycho:
+
+Tycho tutorial: http://www.eclipse.org/tycho/documentation.php
+
+Sources of project Spray (uses extensively EMF, Xtext, Xtend, reprotool Maven configuration is inspired by this project):
+http://code.google.com/a/eclipselabs.org/p/spray/
 
 = Project Setup Details =
 The whole SVN structure can be checked out manually from SVN to an external directory outside of the Eclipse workspace. Once checked out, the reprotool sub-projects can be separately imported to your Eclipse workspace using `File -> Import -> General -> Existing Projects into Workspace`. This approach might seem more complicated but it gives you additional flexibility and can also be easily combined with the Subclipse SVN plugin.
