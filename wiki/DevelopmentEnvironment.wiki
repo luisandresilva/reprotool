@@ -96,3 +96,8 @@ Double click on `model/reprotool.model.genmodel` and in opened editor right clic
 
 = Running the application =
 Try launching the plugin: Double click on `plugin.xml` and push play button in upper right corner. New instance of eclipse should start, inside this started IDE select `Window -> Open perspective -> Other -> reprotool`.
+
+= Product export =
+Product is currently based on plugins (feature based product caused problems). To export the product for multiple platforms:
+  # Follow instructions from http://ugosan.org/eclipse-rcp-delta-pack/ and install delta pack from http://download.eclipse.org/eclipse/downloads/drops/R-3.7.1-201109091335/index.php#DeltaPack . 
+  # Open `org.eclipse.reprotool.product/ReprotoolIDE-plugin-based.product` and run export wizard
