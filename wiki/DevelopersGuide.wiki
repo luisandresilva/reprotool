@@ -26,6 +26,9 @@ Log file is located in `<workspace-dir>\.metadata\.log`
 More about eclipse error handling can be found at
 [http://wiki.eclipse.org/Status_Handling_Best_Practices]
 
+= How to access resources bundled in plugins =
+See http://www.vogella.de/blog/2010/07/06/reading-resources-from-plugin/
+
 = Javadoc =
 Minimal requirement is to have top level comment for each class with `@author` tag filled.
 Desired situation is to have every public class/method/field
