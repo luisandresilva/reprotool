@@ -1,6 +1,6 @@
 #summary Notes from meetings
 
-= 2012 (todo)
+= 2012 (todo) =
   * reprotool.model.ecore/model/swproj - the following classes should be in a different package/model: CounterExample, Step, UseCaseTransition
   * Cleaning up / extending / refactoring model of annotations
 
